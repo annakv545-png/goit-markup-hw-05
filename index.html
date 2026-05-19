@@ -33,6 +33,56 @@
     </address>
   </div>
 </header>
+<input type="checkbox" id="modal-com" class="modal-checkbox"/>
+<div class="backdrop">
+  <div class="modal">
+    <label for="modal-com" class="close-btn">&times;</label>
+    <p>Leave your contacts and we will call you back</p>
+    <form class="modal-form">
+      <div class="form-field">
+        <label class="field-label">Name</label>
+        <div class="input-wrapper">
+            <input type="text" name="name" required/>
+            <svg class="box-icon" width="24" height="24">
+              <use href="./images/icons.svg#person"></use>
+            </svg>
+            </div>
+        </div>
+        <div class="form-field">
+        <label class="field-label">Phone</label>
+        <div class="input-wrapper">
+          <input type="tel" name="phone" required />
+          <svg class="box-icon" width="24" height="24">
+              <use href="./images/icons.svg#phone"></use>
+            </svg>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="field-label">Email</label>
+        <div class="input-wrapper">
+          <input type="email" name="email" />
+           <svg class="box-icon" width="24" height="24">
+              <use href="./images/icons.svg#email"></use>
+            </svg>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="field-label">Comment</label>
+        <textarea name="comment" placeholder="Text input"></textarea>
+      </div>
+
+      <label class="checkbox-policy">
+        <input type="checkbox" required />
+        <span>I accept the terms and conditions of the <a href="#">Privacy Policy</a></span>
+      </label>
+
+      <button type="submit" class="submit-btn">Send</button>
+    </form>
+  </div>
+</div>
+
+
+
 
 
 <main>
@@ -345,7 +395,7 @@
     </main>
 
    <footer id="footer" class="footer">
-    <div class="container footer-container">
+    <div class="footer-container">
         <div class="footer-info">
         <a href="./index.html" class="logo-footer">
             <span class="logo-blue">Web</span><span class="logo-white">Studio</span>
@@ -392,6 +442,23 @@
       </ul>
     </div>
   </div>
+<div class="footer-subscribe">
+
+  <p class="subscribe-title">Subscribe</p>
+  
+  <form class="subscribe-form">
+    <label class="email-label">
+      <input type="email" name="email" placeholder="E-mail" class="email-input">
+    </label>
+    
+    <button type="submit" class="subscribe-button">
+      Subscribe
+      <svg class="icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-send"></use>
+      </svg>
+    </button>
+  </form>
+</div>
 </footer>
 
 </body>
