@@ -5,6 +5,7 @@
 .footer-container {      
     display: flex;
     align-items: flex-start;
+    align-items: baseline
 }
 .logo-footer {
     font-family: "Raleway", sans-serif;
@@ -106,8 +107,8 @@
   fill: #ffffff;
 }
 .footer-subscribe{
-     flex-direction: row;
-    justify-content: space-between;
+     flex-direction: column;
+    /* justify-content: space-between; */
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -115,4 +116,6 @@
     display: flex;
     align-items: flex-start;
 }
+
+
 
