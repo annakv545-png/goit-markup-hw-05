@@ -4,8 +4,7 @@
 }
 .footer-container {      
     display: flex;
-    /* align-items: flex-start; */
-    align-items: baseline
+     align-items: flex-start;
 }
 .logo-footer {
     font-family: "Raleway", sans-serif;
