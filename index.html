@@ -45,14 +45,14 @@
                <!-- <button type="button" class="hero-button">Order Service</button>  -->
                  <!-- <label for="modal-com" class="hero-button">Order Service</label> -->
             </div>
-<div id="modal" class="backdrop">
+<div class="backdrop is-hidden" >
   <div class="modal">
     
-              <a href="#" class="modal-close-btn">
+              <button type="button" class="modal-close-btn" data-modal-close>
                 <svg class="modal-close-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                  </svg>
-              </a>
+              </button>
 
 
 
@@ -86,7 +86,7 @@
         </div>
       </div>
       <div class="form-label comment-field">
-        <label for="user-comment" class="form-label">Comment</label>
+        <label for="user-comment" class="field-label">Comment</label>
         <textarea 
         name="user-comment" 
         class="form-textarea"
@@ -414,7 +414,7 @@
     </main>
 
    <footer id="footer" class="footer">
-    <div class="footer-container">
+    <div class=" conteiner footer-container">
         <div class="footer-info">
         <a href="./index.html" class="logo-footer">
             <span class="logo-blue">Web</span><span class="logo-white">Studio</span>
@@ -490,6 +490,18 @@
 
   
 </footer>
+
+<!-- <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close" data-modal-close>
+                      <svg class="modal-close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                 </svg>
+    </button>
+
+    <p>Modal window</p>
+  </div>
+</div> -->
 
 
 

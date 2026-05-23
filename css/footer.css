@@ -86,16 +86,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   gap: 16px;
-
   background-color: #4d5ae5;
   color: #ffffff;
   border: none;
   border-radius: 4px;
-
-cursor: pointer;
-
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
@@ -125,13 +125,14 @@ cursor: pointer;
  width: 264px;
   height: 40px;
   padding-left: 16px;
-   border: 1px solid rgba(255, 255, 255, 0.3);
+   border: 1px solid #ffffff;
    background-color: transparent;
    color: #ffffff;
    font-size: 12px;
-   line-height: 1.5;
+   line-height: 2;
    letter-spacing: 0.04em;
    border-radius: 4px; 
+   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .icon {
@@ -139,27 +140,23 @@ cursor: pointer;
 }
 .footer-subscribe{
      flex-direction: column;
-    /* justify-content: space-between; */
-    max-width: 1158px;
     margin-left: auto;
-    padding: 0 15px;
-    width: 100%;
     display: flex;
     align-items: flex-start;
     margin-left: auto;
 }
 
 .email-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
 }
 
 .email-input:focus {
-  border-color: #404bbf;
+  border-color: #31d0aa;
 }
 
 .subscribe-button:hover,
 .subscribe-button:focus {
-  background-color: #404bbf;
+  background-color: #31d0af;
 }
 
 
