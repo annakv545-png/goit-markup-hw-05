@@ -4,8 +4,14 @@
 }
 .footer-container {      
     display: flex;
-     align-items: flex-start;
+     align-items: baseline;
+     gap: 120px;
 }
+
+/* .footer-social {
+  margin-left: 120px;
+} */
+
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -28,9 +34,9 @@
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-.footer-info {
+/* .footer-info {
     margin-right: 120px;
-}
+} */
 .social-title {
     font-weight: 500;
     font-size: 16px;
@@ -58,13 +64,12 @@
   /* align-items: center; */
 }
 .subscribe-title {
-  /* color: #ffffff;
-  font-size: 14px; */
-  
-  font-size: 16px;
+   color: #ffffff;
+   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.04em;
-  margin-bottom: 16
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  margin-bottom: 16px;
 
 }
 .subscribe-wrapper {
@@ -74,21 +79,28 @@
 }
 
 .subscribe-button {
- display: flex;
-  align-items: center;
+
   min-width: 165px;
   height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 16px;
+
   background-color: #4d5ae5;
+  color: #ffffff;
   border: none;
   border-radius: 4px;
-  color: #ffffff;
-  font-weight: 500;
-  cursor: pointer;
-  gap: 16px;
+
+cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
-.subscribe-btn {
+/* .subscribe-btn {
   min-width: 165px;
   height: 40px;
 
@@ -99,7 +111,7 @@
   cursor: pointer;
 
   transition: background-color 250ms;
-}
+} */
 
 
 .email {
@@ -113,14 +125,13 @@
  width: 264px;
   height: 40px;
   padding-left: 16px;
-  border: 1px solid #ffffff;
-  background-color: transparent;
-  color: #ffffff;
-  transition: border-color 250ms;
-  /* font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  border-radius: 4px; */
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   background-color: transparent;
+   color: #ffffff;
+   font-size: 12px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   border-radius: 4px; 
 }
 
 .icon {
@@ -130,24 +141,25 @@
      flex-direction: column;
     /* justify-content: space-between; */
     max-width: 1158px;
-    margin: 0 auto;
+    margin-left: auto;
     padding: 0 15px;
     width: 100%;
     display: flex;
     align-items: flex-start;
+    margin-left: auto;
 }
 
 .email-input::placeholder {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .email-input:focus {
-  border-color: #31d0aa;
+  border-color: #404bbf;
 }
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-  background-color: #31d0aa;
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #404bbf;
 }
 
 
